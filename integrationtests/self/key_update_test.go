@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/internal/handshake"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
-	"github.com/bogdanfinn/quic-go-utls/testutils/events"
+	"github.com/yogesh-prabu/quic-go-utls"
+	"github.com/yogesh-prabu/quic-go-utls/internal/handshake"
+	"github.com/yogesh-prabu/quic-go-utls/internal/protocol"
+	"github.com/yogesh-prabu/quic-go-utls/qlog"
+	"github.com/yogesh-prabu/quic-go-utls/qlogwriter"
+	"github.com/yogesh-prabu/quic-go-utls/testutils/events"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

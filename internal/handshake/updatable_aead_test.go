@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/yogesh-prabu/utls"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/monotime"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/internal/qerr"
-	"github.com/bogdanfinn/quic-go-utls/internal/utils"
-	"github.com/bogdanfinn/quic-go-utls/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
-	"github.com/bogdanfinn/quic-go-utls/testutils/events"
+	"github.com/yogesh-prabu/quic-go-utls/internal/monotime"
+	"github.com/yogesh-prabu/quic-go-utls/internal/protocol"
+	"github.com/yogesh-prabu/quic-go-utls/internal/qerr"
+	"github.com/yogesh-prabu/quic-go-utls/internal/utils"
+	"github.com/yogesh-prabu/quic-go-utls/qlog"
+	"github.com/yogesh-prabu/quic-go-utls/qlogwriter"
+	"github.com/yogesh-prabu/quic-go-utls/testutils/events"
 
 	"github.com/stretchr/testify/require"
 )

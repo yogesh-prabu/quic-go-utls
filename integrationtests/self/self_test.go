@@ -14,16 +14,16 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/yogesh-prabu/utls"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/http3"
-	"github.com/bogdanfinn/quic-go-utls/integrationtests/tools"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/internal/wire"
-	"github.com/bogdanfinn/quic-go-utls/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
-	"github.com/bogdanfinn/quic-go-utls/testutils/events"
+	"github.com/yogesh-prabu/quic-go-utls"
+	"github.com/yogesh-prabu/quic-go-utls/http3"
+	"github.com/yogesh-prabu/quic-go-utls/integrationtests/tools"
+	"github.com/yogesh-prabu/quic-go-utls/internal/protocol"
+	"github.com/yogesh-prabu/quic-go-utls/internal/wire"
+	"github.com/yogesh-prabu/quic-go-utls/qlog"
+	"github.com/yogesh-prabu/quic-go-utls/qlogwriter"
+	"github.com/yogesh-prabu/quic-go-utls/testutils/events"
 
 	"github.com/stretchr/testify/require"
 )

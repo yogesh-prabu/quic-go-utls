@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/internal/synctest"
-	"github.com/bogdanfinn/quic-go-utls/testutils/simnet"
+	"github.com/yogesh-prabu/quic-go-utls"
+	"github.com/yogesh-prabu/quic-go-utls/internal/synctest"
+	"github.com/yogesh-prabu/quic-go-utls/testutils/simnet"
 
 	"github.com/stretchr/testify/require"
 )

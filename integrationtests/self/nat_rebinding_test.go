@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	quicproxy "github.com/bogdanfinn/quic-go-utls/integrationtests/tools/proxy"
-	"github.com/bogdanfinn/quic-go-utls/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
+	"github.com/yogesh-prabu/quic-go-utls"
+	quicproxy "github.com/yogesh-prabu/quic-go-utls/integrationtests/tools/proxy"
+	"github.com/yogesh-prabu/quic-go-utls/qlog"
+	"github.com/yogesh-prabu/quic-go-utls/qlogwriter"
 
 	"github.com/stretchr/testify/require"
 )

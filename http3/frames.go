@@ -7,10 +7,10 @@ import (
 	"io"
 	"maps"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/http3/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
-	"github.com/bogdanfinn/quic-go-utls/quicvarint"
+	"github.com/yogesh-prabu/quic-go-utls"
+	"github.com/yogesh-prabu/quic-go-utls/http3/qlog"
+	"github.com/yogesh-prabu/quic-go-utls/qlogwriter"
+	"github.com/yogesh-prabu/quic-go-utls/quicvarint"
 )
 
 // FrameType is the frame type of a HTTP/3 frame

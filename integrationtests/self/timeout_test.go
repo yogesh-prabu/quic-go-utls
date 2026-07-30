@@ -12,14 +12,14 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/yogesh-prabu/utls"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/internal/synctest"
-	"github.com/bogdanfinn/quic-go-utls/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
-	"github.com/bogdanfinn/quic-go-utls/testutils/simnet"
+	"github.com/yogesh-prabu/quic-go-utls"
+	"github.com/yogesh-prabu/quic-go-utls/internal/protocol"
+	"github.com/yogesh-prabu/quic-go-utls/internal/synctest"
+	"github.com/yogesh-prabu/quic-go-utls/qlog"
+	"github.com/yogesh-prabu/quic-go-utls/qlogwriter"
+	"github.com/yogesh-prabu/quic-go-utls/testutils/simnet"
 
 	"github.com/stretchr/testify/require"
 )
@@ -218,7 +218,7 @@ func TestKeepAlive(t *testing.T) {
 		requireIdleTimeoutError(t, err)
 
 		// can't rely on the server connection closing, since we impose a minimum idle timeout of 5s,
-		// see https://github.com/bogdanfinn/quic-go-utls/issues/4751
+		// see https://github.com/yogesh-prabu/quic-go-utls/issues/4751
 		serverConn.CloseWithError(0, "")
 	})
 }

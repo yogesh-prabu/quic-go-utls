@@ -9,11 +9,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	h3qlog "github.com/bogdanfinn/quic-go-utls/http3/qlog"
-	"github.com/bogdanfinn/quic-go-utls/internal/utils"
-	"github.com/bogdanfinn/quic-go-utls/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
+	"github.com/yogesh-prabu/quic-go-utls"
+	h3qlog "github.com/yogesh-prabu/quic-go-utls/http3/qlog"
+	"github.com/yogesh-prabu/quic-go-utls/internal/utils"
+	"github.com/yogesh-prabu/quic-go-utls/qlog"
+	"github.com/yogesh-prabu/quic-go-utls/qlogwriter"
 )
 
 func QlogTracer(logger io.Writer) qlogwriter.Trace {

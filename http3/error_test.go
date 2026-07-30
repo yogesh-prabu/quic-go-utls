@@ -3,7 +3,7 @@ package http3
 import (
 	"testing"
 
-	"github.com/bogdanfinn/quic-go-utls"
+	"github.com/yogesh-prabu/quic-go-utls"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

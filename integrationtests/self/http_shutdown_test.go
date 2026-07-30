@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/yogesh-prabu/fhttp"
+	tls "github.com/yogesh-prabu/utls"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/http3"
-	quicproxy "github.com/bogdanfinn/quic-go-utls/integrationtests/tools/proxy"
+	"github.com/yogesh-prabu/quic-go-utls"
+	"github.com/yogesh-prabu/quic-go-utls/http3"
+	quicproxy "github.com/yogesh-prabu/quic-go-utls/integrationtests/tools/proxy"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

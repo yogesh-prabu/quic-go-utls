@@ -3,7 +3,7 @@ package ackhandler
 import (
 	"testing"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/wire"
+	"github.com/yogesh-prabu/quic-go-utls/internal/wire"
 	"github.com/stretchr/testify/require"
 )
 

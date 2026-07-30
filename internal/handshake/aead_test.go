@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"testing"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/yogesh-prabu/utls"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
+	"github.com/yogesh-prabu/quic-go-utls/internal/protocol"
 
 	"github.com/stretchr/testify/require"
 )

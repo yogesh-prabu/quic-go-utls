@@ -7,9 +7,9 @@ import (
 	mrand "math/rand/v2"
 	"testing"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/yogesh-prabu/utls"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/testdata"
+	"github.com/yogesh-prabu/quic-go-utls/internal/testdata"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

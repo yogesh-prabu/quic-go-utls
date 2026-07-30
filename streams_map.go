@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/flowcontrol"
-	"github.com/bogdanfinn/quic-go-utls/internal/monotime"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/internal/qerr"
-	"github.com/bogdanfinn/quic-go-utls/internal/wire"
+	"github.com/yogesh-prabu/quic-go-utls/internal/flowcontrol"
+	"github.com/yogesh-prabu/quic-go-utls/internal/monotime"
+	"github.com/yogesh-prabu/quic-go-utls/internal/protocol"
+	"github.com/yogesh-prabu/quic-go-utls/internal/qerr"
+	"github.com/yogesh-prabu/quic-go-utls/internal/wire"
 )
 
 // StreamLimitReachedError is returned from Conn.OpenStream and Conn.OpenUniStream

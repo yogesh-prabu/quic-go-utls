@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls"
+	"github.com/yogesh-prabu/quic-go-utls"
 
 	"github.com/stretchr/testify/require"
 )

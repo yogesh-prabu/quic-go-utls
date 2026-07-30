@@ -3,8 +3,8 @@ package wire
 import (
 	"io"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/quicvarint"
+	"github.com/yogesh-prabu/quic-go-utls/internal/protocol"
+	"github.com/yogesh-prabu/quic-go-utls/quicvarint"
 )
 
 // MaxDatagramSize is the maximum size of a DATAGRAM frame (RFC 9221).
