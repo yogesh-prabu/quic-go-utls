@@ -1,4 +1,4 @@
-module github.com/bogdanfinn/quic-go-utls
+module github.com/yogesh-prabu/quic-go-utls
 
 go 1.24.1
 
