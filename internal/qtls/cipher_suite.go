@@ -7,13 +7,13 @@ import (
 	tls "github.com/bogdanfinn/utls"
 )
 
-//go:linkname cipherSuitesTLS13 crypto/tls.cipherSuitesTLS13
+//go:linkname cipherSuitesTLS13 github.com/bogdanfinn/utls.cipherSuitesTLS13
 var cipherSuitesTLS13 []unsafe.Pointer
 
-//go:linkname defaultCipherSuitesTLS13 crypto/tls.defaultCipherSuitesTLS13
+//go:linkname defaultCipherSuitesTLS13 github.com/bogdanfinn/utls.defaultCipherSuitesTLS13
 var defaultCipherSuitesTLS13 []uint16
 
-//go:linkname defaultCipherSuitesTLS13NoAES crypto/tls.defaultCipherSuitesTLS13NoAES
+//go:linkname defaultCipherSuitesTLS13NoAES github.com/bogdanfinn/utls.defaultCipherSuitesTLS13NoAES
 var defaultCipherSuitesTLS13NoAES []uint16
 
 var cipherSuitesModified bool

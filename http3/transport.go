@@ -432,7 +432,12 @@ func (t *Transport) resolveUDPAddr(ctx context.Context, network, addr string) (*
 		return nil, err
 	}
 	resolver := net.DefaultResolver
+	// The fhttp fork's httptrace can't hook into the standard library resolver
+	// (net uses its own internal/nettrace key), so fire the DNS events here.
+	trace := httptrace.ContextClientTrace(ctx)
+	traceDNSStart(trace, host)
 	ipAddrs, err := resolver.LookupIPAddr(ctx, host)
+	traceDNSDone(trace, ipAddrs, err)
 	if err != nil {
 		return nil, err
 	}
