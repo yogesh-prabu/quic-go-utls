@@ -3,10 +3,10 @@ module github.com/yogesh-prabu/quic-go-utls
 go 1.24.1
 
 require (
-	github.com/yogesh-prabu/fhttp v0.6.8
-	github.com/yogesh-prabu/utls v1.7.7-barnius
 	github.com/quic-go/qpack v0.6.0
 	github.com/stretchr/testify v1.11.1
+	github.com/yogesh-prabu/fhttp v0.6.10
+	github.com/yogesh-prabu/utls v1.7.8-barnius
 	go.uber.org/mock v0.5.2
 	golang.org/x/crypto v0.46.0
 	golang.org/x/net v0.48.0
@@ -16,6 +16,7 @@ require (
 
 require (
 	github.com/andybalholm/brotli v1.2.0 // indirect
+	github.com/cloudflare/circl v1.6.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/jordanlewis/gcassert v0.0.0-20250430164644-389ef753e22e // indirect
 	github.com/klauspost/compress v1.18.2 // indirect
@@ -33,3 +34,7 @@ tool (
 	github.com/jordanlewis/gcassert/cmd/gcassert
 	go.uber.org/mock/mockgen
 )
+
+//replace github.com/bogdanfinn/fhttp => ../fhttp
+
+//replace github.com/bogdanfinn/utls => ../utls
